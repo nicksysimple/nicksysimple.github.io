@@ -1,0 +1,110 @@
+body {
+  font-family: sans-serif;
+  line-height: normal;
+  background-color: white;
+
+}
+header{
+  height: 70px;
+  background-color: #34ad39;
+  border-bottom: white 3px solid;
+}
+header h1{
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+header a{
+  color: white;
+  text-transform: uppercase;
+}
+header ol{
+  padding: 0;
+  margin: 0;
+}
+header li{
+  float: left;
+  padding: 0 20px 0 20px;
+  display: inline;
+}
+header #about{
+  float: left;
+}
+header #about {
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top:30px;
+  }
+#advert{
+    background: url('../images/interest.jpg') no-repeat 0 -400px;
+    min-height: 300px;
+    border-bottom: white;
+    text-align: center;
+}
+#advert p{
+  text-align: center;
+  color: white;
+  margin-left: 480px;
+  margin-right: 480px;
+  font-size: 21px;
+  margin-bottom: 0px;
+  }
+#advert h1{
+  font-size: 35px;
+  color: white;
+  margin-top: 0px;
+}
+#report {
+  padding: 15px;
+  background-color: white;
+}
+#report h1{
+  float: left;
+}
+#report form{
+  float: right;
+  margin-top: 30px;
+
+}
+#report input[type="email"]{
+  padding: 4px;
+  width: 250px;
+  height: 25px;
+
+}
+.left{
+  float: left;
+    margin-left: 150px;
+  width: 30%;
+}
+.right{
+  float: right;
+  margin-right: 150px;
+  width: 30%;
+}
+.educa{
+  width: 90%;
+  border: 2px solid black;
+  margin-left: 90px;
+}
+.fb{
+  border: 10%;
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+.fb img{
+width: 90px;
+}
+.tsup{
+  width: 30%;
+}
+footer{
+  background-color: #0E152F;
+  height: 10px;
+}
+footer p{
+  color: black;
+}
